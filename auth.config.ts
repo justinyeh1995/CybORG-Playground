@@ -35,6 +35,7 @@ const authConfig = {
       }
     })
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   pages: {
     signIn: '/' //sigin page
   }
